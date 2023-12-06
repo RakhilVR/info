@@ -1,0 +1,102 @@
+.logIN {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.welcome {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1A293DD4;
+
+
+}
+
+.sectionName {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.email,
+.password,
+.custom-control-label {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B2B41B8;
+}
+
+.form-control {
+    padding: 0.8rem 0.75rem !important;
+}
+
+input[type="checkbox"] {
+    accent-color: #1676F3;
+
+    transform: scale(1.5);
+
+}
+
+.forgot-password {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin: 0 !important;
+
+}
+
+.submitbtn {
+    background-color: #133D7A;
+    color: white;
+    font-family: Open Sans;
+    padding: 16px 116px 16px 116px !important;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.account {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.signup {
+    text-decoration: none;
+}
+
+
+
+.error-label {
+    color: red;
+}
+
+.error-input {
+    border: 1px solid red;
+}
+
+.error-message {
+    color: red;
+    text-align: left;
+}

@@ -1,0 +1,222 @@
+.Register_today {
+    font-family: Open Sans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.fullname,
+.email_id,
+.password,
+.cpassword {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #1B2B41B8;
+
+}
+
+
+
+@media only screen and (min-width: 600px) {
+
+    .mainDiv {
+        padding-left: 2.5rem;
+    }
+
+    .small_screen_head {
+        font-family: Open Sans;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: center;
+
+    }
+
+    .fullnameText_box {
+        margin-top: 0 !important;
+    }
+
+}
+
+.details {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1A293DD4;
+
+
+}
+
+.form-control {
+    line-height: 1.8rem !important;
+}
+
+
+@media only screen and (max-width: 575px) {
+    .set {
+        padding-left: 1.5rem !important;
+        padding-right: 1.5rem !important;
+    }
+
+    .form-control {
+        line-height: 2rem !important;
+    }
+
+    .registerAS {
+        text-align: left;
+    }
+
+    .seeker {
+        display: flex;
+        column-gap: 2rem;
+
+    }
+
+    .signUP {
+        padding: 16px 154px 16px 154px !important;
+    }
+}
+
+.registerAS {
+    text-align: left;
+}
+
+.seeker {
+    display: flex;
+    column-gap: 2rem;
+
+}
+
+input[type="radio"] {
+    accent-color: black;
+}
+
+.regButton {
+    display: block;
+
+
+}
+
+.signUP {
+    background-color: #133D7A;
+    color: white;
+    font-family: Open Sans;
+    padding: 16px 95px 16px 95px;
+    border-radius: 4px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.Spanlogin {
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.already_have {
+    font-family: Open Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.password-input {
+    position: relative;
+
+}
+
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Style for the visible state */
+.password-input.visible::after {
+
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+}
+
+.vertical-line {
+    border-left: 1px solid #ccc;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.submitbtnInReg {
+    background: #133D7A;
+    color: white;
+    top: 375px;
+    left: 239.5px;
+    padding: 12px 54px 12px 54px;
+    border-radius: 4px;
+    gap: 10px;
+    font-family: Open Sans;
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .smScreen {
+        width: 100vw !important;
+    }
+
+    .headerIMG {
+        width: 130vw;
+    }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 576px) {
+    .smScreen {
+        width: 220vw !important;
+    }
+
+    .headerIMG {
+        width: 179vw;
+    }
+}
+
+.acc {
+    color: #1676F3;
+    font-family: Open Sans;
+    font-weight: 600;
+}
+
+.already {
+    font-family: Open Sans;
+    font-weight: 600;
+}
+
+.Lgacc {
+    font-family: Open Sans;
+    font-weight: 600;
+}

@@ -1,0 +1,118 @@
+.logo {
+    width: auto;
+    height: 7vh;
+}
+
+.Register_button {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
+    border-radius: 4px;
+    background: #133D7A;
+    display: inline-flex;
+    padding: 6px 25px;
+    align-items: flex-start;
+    gap: 10px;
+    border-color: #133D7A;
+}
+
+
+
+.login {
+    color: #1676F3 !important;
+    font-family: Open Sans;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
+}
+
+.faq,
+.job_seeker,
+.about,
+.recruter,
+.employer {
+    color: #333 !important;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600 !important;
+    line-height: 18.88px;
+    /* 118% */
+}
+
+.loginREG {
+    color: #333 !important;
+    font-family: Open Sans;
+    font-size: 16px !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
+}
+
+.nav {
+    height: 15vh;
+    background: #FFF !important;
+}
+
+@media only screen and (min-width: 600px) {
+
+    .contan {
+        padding: 0px !important;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .line {
+        border-bottom: 2px solid rgba(33, 33, 33, 0.08);
+        ;
+
+        width: 100%;
+
+        margin-top: 10px;
+
+    }
+
+
+
+}
+
+
+.offcanvas {
+    margin-top: 5vh !important;
+}
+
+.navbar-toggler {
+    color: #ffffff !important;
+    border: none !important;
+}
+
+.offcanvas-title {
+    margin-left: 27% !important;
+}
+
+.regtag {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+.pages {
+    position: absolute;
+    bottom: 30px;
+    width: 100vw;
+}
+
+.nav {
+    border-bottom: #DEE5ED solid 1px;
+}
+

@@ -1,0 +1,79 @@
+.modal-backdrop {
+    opacity: 0 !important;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: var(--bs-modal-width);
+        margin-right: 0 !important;
+        margin-left: auto;
+        margin-top: 6.9rem !important;
+    }
+}
+
+.Email {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.passwordLOG {
+    font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.modal-content {
+    width: 80% !important;
+}
+
+.remember {
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+input[type="checkbox"] {
+    accent-color: #1676F3;
+    transform: scale(1) !important;
+}
+
+.forG {
+    margin: 0 !important;
+    font-family: Open Sans;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.LOG {
+    background: #133D7A;
+    color: white;
+    top: 375px;
+    left: 239.5px;
+    padding: 2px 29px 2px 29px;
+    border-radius: 4px;
+    gap: 10px;
+    font-family: Open Sans;
+    font-size: 13px;
+    text-align: end;
+}
+
+
+.error-border {
+    border: 1px solid red;
+  }
+  
